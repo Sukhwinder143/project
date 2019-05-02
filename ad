@@ -1,0 +1,156 @@
+[33mcommit 8425b4993cef2d8f6921acb0036728aa0fc3acde[m
+Author: Sukhwindr143 <sukhwinderr1433@gmail.com>
+Date:   Thu May 2 07:55:34 2019 +0530
+
+    Added new folder
+
+ css/animate.css                          |    1 [32m+[m
+ css/bootstrap-select.css                 |  300 [32m++[m
+ css/bootstrap-theme.css                  |  587 [32m+++[m
+ css/bootstrap-theme.min.css              |    6 [32m+[m
+ css/bootstrap.css                        | 6757 [32m++++++++++++++++++++++++++++++[m
+ css/bootstrap.min.css                    |    6 [32m+[m
+ css/carousel.css                         |  291 [32m++[m
+ css/font-awesome.css                     | 2337 [32m+++++++++++[m
+ css/font-awesome.min.css                 |    4 [32m+[m
+ fonts/Flaticon.eot                       |  Bin [31m0[m -> [32m10998[m bytes
+ fonts/Flaticon.svg                       |  342 [32m++[m
+ fonts/Flaticon.ttf                       |  Bin [31m0[m -> [32m10820[m bytes
+ fonts/Flaticon.woff                      |  Bin [31m0[m -> [32m7300[m bytes
+ fonts/FontAwesome.otf                    |  Bin [31m0[m -> [32m134808[m bytes
+ fonts/flaticon.css                       |   49 [32m+[m
+ fonts/fontawesome-webfont.eot            |  Bin [31m0[m -> [32m165742[m bytes
+ fonts/fontawesome-webfont.svg            | 2671 [32m++++++++++++[m
+ fonts/fontawesome-webfont.ttf            |  Bin [31m0[m -> [32m165548[m bytes
+ fonts/fontawesome-webfont.woff           |  Bin [31m0[m -> [32m98024[m bytes
+ fonts/fontawesome-webfont.woff2          |  Bin [31m0[m -> [32m77160[m bytes
+ fonts/glyphicons-halflings-regular.eot   |  Bin [31m0[m -> [32m20127[m bytes
+ fonts/glyphicons-halflings-regular.svg   |  288 [32m++[m
+ fonts/glyphicons-halflings-regular.ttf   |  Bin [31m0[m -> [32m45404[m bytes
+ fonts/glyphicons-halflings-regular.woff  |  Bin [31m0[m -> [32m23424[m bytes
+ fonts/glyphicons-halflings-regular.woff2 |  Bin [31m0[m -> [32m18028[m bytes
+ images/ae.png                            |  Bin [31m0[m -> [32m408[m bytes
+ images/apple-touch-icon.png              |  Bin [31m0[m -> [32m2106[m bytes
+ images/banner.gif                        |  Bin [31m0[m -> [32m134071[m bytes
+ images/de.png                            |  Bin [31m0[m -> [32m545[m bytes
+ images/favicon.ico                       |  Bin [31m0[m -> [32m34494[m bytes
+ images/icon_07.png                       |  Bin [31m0[m -> [32m2655[m bytes
+ images/icon_08.png                       |  Bin [31m0[m -> [32m2912[m bytes
+ images/icon_09.png                       |  Bin [31m0[m -> [32m1790[m bytes
+ images/it.png                            |  Bin [31m0[m -> [32m420[m bytes
+ images/lightlogo.png                     |  Bin [31m0[m -> [32m3349[m bytes
+ images/logo.png                          |  Bin [31m0[m -> [32m3435[m bytes
+ images/sectionbg.png                     |  Bin [31m0[m -> [32m69070[m bytes
+ images/si.png                            |  Bin [31m0[m -> [32m510[m bytes
+ images/tr.png                            |  Bin [31m0[m -> [32m492[m bytes
+ images/us.png                            |  Bin [31m0[m -> [32m609[m bytes
+ index.html                               | 1029 [32m+++++[m
+ js/animate.js                            |   22 [32m+[m
+ js/bootstrap-select.js                   | 1833 [32m++++++++[m
+ js/bootstrap.min.js                      |    7 [32m+[m
+ js/custom.js                             |   30 [32m+[m
+ js/gallery_04.js                         |   65 [32m+[m
+ js/jquery.min.js                         |    5 [32m+[m
+ js/map.js                                |   36 [32m+[m
+ js/map_02.js                             |  112 [32m+[m
+ js/masonry.js                            | 2306 [32m++++++++++[m
+ js/owl.carousel.js                       | 3293 [32m+++++++++++++++[m
+ js/parallax.js                           |   17 [32m+[m
+ page-about.html                          |  405 [32m++[m
+ page-contact.html                        |  323 [32m++[m
+ page-services.html                       |  373 [32m++[m
+ upload/about.jpg                         |  Bin [31m0[m -> [32m15265[m bytes
+ upload/about_02.jpg                      |  Bin [31m0[m -> [32m37933[m bytes
+ upload/bg_01.jpg                         |  Bin [31m0[m -> [32m35589[m bytes
+ upload/bg_02.jpg                         |  Bin [31m0[m -> [32m35589[m bytes
+ upload/bg_03.jpg                         |  Bin [31m0[m -> [32m35589[m bytes
+ upload/bg_04.jpg                         |  Bin [31m0[m -> [32m35589[m bytes
+ upload/bg_05.jpg                         |  Bin [31m0[m -> [32m35589[m bytes
+ upload/blog_01.jpg                       |  Bin [31m0[m -> [32m9813[m bytes
+ upload/blog_02.jpg                       |  Bin [31m0[m -> [32m9813[m bytes
+ upload/blog_03.jpg                       |  Bin [31m0[m -> [32m9813[m bytes
+ upload/blog_04.jpg                       |  Bin [31m0[m -> [32m9813[m bytes
+ upload/blog_05.jpg                       |  Bin [31m0[m -> [32m9813[m bytes
+ upload/blog_06.jpg                       |  Bin [31m0[m -> [32m9813[m bytes
+ upload/blog_07.jpg                       |  Bin [31m0[m -> [32m9813[m bytes
+ upload/blog_alt_01.jpeg                  |  Bin [31m0[m -> [32m16643[m bytes
+ upload/blog_alt_01.jpg                   |  Bin [31m0[m -> [32m16643[m bytes
+ upload/blog_alt_02.jpg                   |  Bin [31m0[m -> [32m16643[m bytes
+ upload/blog_alt_03.jpg                   |  Bin [31m0[m -> [32m16643[m bytes
+ upload/blog_alt_04.jpg                   |  Bin [31m0[m -> [32m16643[m bytes
+ upload/blog_alt_05.jpg                   |  Bin [31m0[m -> [32m16643[m bytes
+ upload/blog_alt_06.jpg                   |  Bin [31m0[m -> [32m16643[m bytes
+ upload/book_01.png                       |  Bin [31m0[m -> [32m2091[m bytes
+ upload/book_02.png                       |  Bin [31m0[m -> [32m2091[m bytes
+ upload/book_03.png                       |  Bin [31m0[m -> [32m2091[m bytes
+ upload/book_04.png                       |  Bin [31m0[m -> [32m2091[m bytes
+ upload/book_05.png                       |  Bin [31m0[m -> [32m2091[m bytes
+ upload/book_06.png                       |  Bin [31m0[m -> [32m2091[m bytes
+ upload/browser_01.png                    |  Bin [31m0[m -> [32m7349[m bytes
+ upload/browser_02.png                    |  Bin [31m0[m -> [32m7349[m bytes
+ upload/case_01.png                       |  Bin [31m0[m -> [32m8305[m bytes
+ upload/case_02.png                       |  Bin [31m0[m -> [32m8305[m bytes
+ upload/case_03.png                       |  Bin [31m0[m -> [32m8305[m bytes
+ upload/case_04.jpg                       |  Bin [31m0[m -> [32m17054[m bytes
+ upload/case_05.jpg                       |  Bin [31m0[m -> [32m17054[m bytes
+ upload/case_06.jpg                       |  Bin [31m0[m -> [32m17054[m bytes
+ upload/case_07.jpg                       |  Bin [31m0[m -> [32m17054[m bytes
+ upload/case_08.jpg                       |  Bin [31m0[m -> [32m17054[m bytes
+ upload/case_09.jpg                       |  Bin [31m0[m -> [32m17054[m bytes
+ upload/client_01.png                     |  Bin [31m0[m -> [32m1600[m bytes
+ upload/client_02.png                     |  Bin [31m0[m -> [32m1600[m bytes
+ upload/client_03.png                     |  Bin [31m0[m -> [32m1600[m bytes
+ upload/client_04.png                     |  Bin [31m0[m -> [32m1600[m bytes
+ upload/client_05.png                     |  Bin [31m0[m -> [32m1600[m bytes
+ upload/client_06.png                     |  Bin [31m0[m -> [32m1600[m bytes
+ upload/client_07.png                     |  Bin [31m0[m -> [32m1600[m bytes
+ upload/client_08.png                     |  Bin [31m0[m -> [32m1600[m bytes
+ upload/client_09.png                     |  Bin [31m0[m -> [32m1600[m bytes
+ upload/client_10.png                     |  Bin [31m0[m -> [32m1600[m bytes
+ upload/client_11.png                     |  Bin [31m0[m -> [32m1600[m bytes
+ upload/client_12.png                     |  Bin [31m0[m -> [32m1600[m bytes
+ upload/copy_01.png                       |  Bin [31m0[m -> [32m2091[m bytes
+ upload/copy_02.png                       |  Bin [31m0[m -> [32m2091[m bytes
+ upload/laptop.png                        |  Bin [31m0[m -> [32m5742[m bytes
+ upload/laptop1.png                       |  Bin [31m0[m -> [32m6403[m bytes
+ upload/screen_01.png                     |  Bin [31m0[m -> [32m7828[m bytes
+ upload/screen_02.png                     |  Bin [31m0[m -> [32m7457[m bytes
+ upload/screen_03.png                     |  Bin [31m0[m -> [32m9148[m bytes
+ upload/screen_04.jpg                     |  Bin [31m0[m -> [32m21159[m bytes
+ upload/screen_04.png                     |  Bin [31m0[m -> [32m9148[m bytes
+ upload/screen_05.jpg                     |  Bin [31m0[m -> [32m21159[m bytes
+ upload/screen_06.jpg                     |  Bin [31m0[m -> [32m21159[m bytes
+ upload/screen_07.jpg                     |  Bin [31m0[m -> [32m21159[m bytes
+ upload/seo.png                           |  Bin [31m0[m -> [32m9637[m bytes
+ upload/seo_icon_01.png                   |  Bin [31m0[m -> [32m3098[m bytes
+ upload/seo_icon_02.png                   |  Bin [31m0[m -> [32m3098[m bytes
+ upload/seo_icon_03.png                   |  Bin [31m0[m -> [32m3098[m bytes
+ upload/seo_screen.png                    |  Bin [31m0[m -> [32m7551[m bytes
+ upload/service_01.jpg                    |  Bin [31m0[m -> [32m13486[m bytes
+ upload/service_02.jpg                    |  Bin [31m0[m -> [32m13486[m bytes
+ upload/service_03.jpg                    |  Bin [31m0[m -> [32m13486[m bytes
+ upload/service_04.jpg                    |  Bin [31m0[m -> [32m13486[m bytes
+ upload/service_05.jpg                    |  Bin [31m0[m -> [32m13486[m bytes
+ upload/service_06.jpg                    |  Bin [31m0[m -> [32m13486[m bytes
+ upload/service_07.jpg                    |  Bin [31m0[m -> [32m13486[m bytes
+ upload/service_08.jpg                    |  Bin [31m0[m -> [32m13486[m bytes
+ upload/service_09.jpg                    |  Bin [31m0[m -> [32m13486[m bytes
+ upload/service_big_01.jpeg               |  Bin [31m0[m -> [32m22741[m bytes
+ upload/service_big_02.jpg                |  Bin [31m0[m -> [32m22741[m bytes
+ upload/service_mini_01.jpg               |  Bin [31m0[m -> [32m13486[m bytes
+ upload/service_mini_02.jpg               |  Bin [31m0[m -> [32m13486[m bytes
+ upload/service_mini_03.jpg               |  Bin [31m0[m -> [32m13486[m bytes
+ upload/service_title_01.png              |  Bin [31m0[m -> [32m2970[m bytes
+ upload/slider_01.jpeg                    |  Bin [31m0[m -> [32m32814[m bytes
+ upload/slider_text.png                   |  Bin [31m0[m -> [32m2672[m bytes
+ upload/slider_text_02.png                |  Bin [31m0[m -> [32m3233[m bytes
+ upload/team_01.jpeg                      |  Bin [31m0[m -> [32m18095[m bytes
+ upload/team_02.jpeg                      |  Bin [31m0[m -> [32m6823[m bytes
+ upload/team_03.jpeg                      |  Bin [31m0[m -> [32m18095[m bytes
+ upload/team_04.jpg                       |  Bin [31m0[m -> [32m18095[m bytes
+ upload/team_05.jpg                       |  Bin [31m0[m -> [32m18095[m bytes
+ upload/team_06.jpg                       |  Bin [31m0[m -> [32m18095[m bytes
+ upload/team_07.jpg                       |  Bin [31m0[m -> [32m18095[m bytes
+ upload/team_08.jpg                       |  Bin [31m0[m -> [32m18095[m bytes
+ upload/team_09.jpg                       |  Bin [31m0[m -> [32m18095[m bytes
+ 149 files changed, 23495 insertions(+)
